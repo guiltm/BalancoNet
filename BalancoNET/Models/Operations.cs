@@ -1,24 +1,28 @@
-﻿using System;
+﻿using BalancoNET.HelpCodes.EnumTypes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
 namespace BalancoNET.Models
 {
-    public abstract class Operations
+    public class Operations
     {
-        private int ID { get; set; }
+        [Key]
+        public int ID { get; set; }
 
         [Required]
-        private double Value { get; set; }
+        public double Value { get; set; }
 
         public Category Category { get; set; }
 
         public DateTime Date { get; set; }
-        
+
         [StringLength(100)]
         public String Observation { get; set; }
+
+        [Required]
+        public OperationType OperationTypes { get; set; } 
     }
 }

@@ -7,6 +7,7 @@ namespace BalancoNET.Models
 {
     public class Expenses
     {
-        // possibilita extender as propriedades comuns, mas também implementar novas propriedades específicas para as despesas, se necessário no futuro.
+        public int ID { get; set; }
+        public string Description { get; set; }
     }
 }

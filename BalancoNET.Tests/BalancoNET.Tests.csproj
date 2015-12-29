@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C839200-3B79-4917-AF09-043697228C24}</ProjectGuid>
+    <ProjectGuid>{C4DB98CC-7F24-47E4-BAEB-EFBE10FED5CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BalancoNET.Tests</RootNamespace>
@@ -53,12 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BalancoNET\BalancoNET.csproj">
-      <Project>{6EB9979C-6320-4A02-A7C0-D3A8F6A2F0C6}</Project>
+      <Project>{7D92E632-3878-43F8-86F5-91BE42D334ED}</Project>
       <Name>BalancoNET</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
