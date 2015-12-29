@@ -7,7 +7,7 @@ namespace BalancoNET.HelpCodes.EnumTypes
 {
     public enum OperationType
     {
-        Income, // Receitas
+        Incomes, // Receitas
         Expenses // Despesas
     }
 }
