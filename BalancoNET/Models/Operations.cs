@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BalancoNET.Models
 {
-    public abstract class Transaction
+    public abstract class Operations
     {
         private int ID { get; set; }
 

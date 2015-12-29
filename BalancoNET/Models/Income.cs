@@ -5,7 +5,7 @@ using System.Web;
 
 namespace BalancoNET.Models
 {
-    public class Income : Transaction
+    public class Income : Operations
     {
         // possibilita extender as propriedades comuns, mas também implementar novas propriedades específicas para as receitas, se necessário no futuro.
     }
