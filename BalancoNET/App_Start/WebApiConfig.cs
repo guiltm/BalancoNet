@@ -16,8 +16,6 @@ namespace BalancoNET
             var jsonFormatter = formatters.JsonFormatter;
             var settings = jsonFormatter.SerializerSettings;
 
-            // adicionando newtonsoft como o serializador padrão
-
             // referencia o objeto duplicado
             jsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
 
